@@ -153,7 +153,7 @@ int main(int argc, char **argv) {
 						}
 					}
 
-				} else if (evt.type == SDL_KEYDOWN && evt.key.keysym.sym == SDLK_PRINTSCREEN) {
+				} else if (evt.type == SDL_KEYDOWN && evt.key.keysym.sym == SDLK_p) {
 					// --- screenshot key ---
 					std::string filename = "screenshot.png";
 					std::cout << "Saving screenshot to '" << filename << "'." << std::endl;

@@ -158,6 +158,7 @@ bool PlantMode::handle_event(SDL_Event const &evt, glm::uvec2 const &window_size
 			mouse_captured = false;
 		}
 	}
+
 	if (evt.type == SDL_MOUSEMOTION) {
 		if (mouse_captured) {
 			float yaw = evt.motion.xrel / float(window_size.y) * camera->fovy;

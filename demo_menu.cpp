@@ -2,7 +2,7 @@
 #include "Load.hpp"
 #include "Sprite.hpp"
 #include "data_path.hpp"
-
+#include "ObserveMode.hpp"
 #include "PlantMode.hpp"
 #include "DemoLightingMultipassMode.hpp"
 #include "DemoLightingForwardMode.hpp"
@@ -17,6 +17,11 @@ std::shared_ptr< MenuMode > demo_menu;
 Load< void > load_demo_menu(LoadTagDefault, [](){
 	std::vector< MenuMode::Item > items;
 	items.emplace_back("[[ DEMO MENU ]]");
+
+	items.emplace_back("Map");
+	items.back().on_select = [](MenuMode::Item const&) {
+		Mode::set_current(std::make_shared< ObserveMode >());
+	};
 	items.emplace_back("plant");
 	items.back().on_select = [](MenuMode::Item const &){
 		Mode::set_current(std::make_shared< PlantMode >());

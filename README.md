@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# A Normal Day
 
-Author: (TODO: your name)
+Author: Malek Anabtawi
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: Once again, sadly, there is no game.
 
 Screen Shot:
 
@@ -10,10 +10,16 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Walk with wasd, look around with the mouse. If the camera starts tilting, rotate the mouse vigorously. 
 
 Sources:
 
-(TODO: fill in information about the sources of any **artwork** or **sounds** you used in the game that you did not create yourself. Feel free to also credit yourself for things you did make.)
+Assets from the amazing: https://kenney.nl/assets/fantasy-town-kit
+
+Notes of interest:
+
+- Because I was pretty busy this week, and because I didn't have a strong image of any game I wanted to build...yeah.
+- I wanted to make a spooky game where the camera keeps staticking, and the player keeps teleporting around and seeing double,
+  for what it's worth. With some voice-over, I reckon it would have barely been a game.
 
 This game was built with [NEST](NEST.md).
